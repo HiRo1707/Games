@@ -1,0 +1,18 @@
+.GameCard{
+    background-color: aqua;
+    height: 150px;
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.hiddenGameCard{
+    background-color: aqua;
+    height: 150px;
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    visibility: hidden;
+}
