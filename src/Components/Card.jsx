@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+//Component for single Card
+
 const Card = (props) => {
     const onClickHandler = () => {
         if(props.turnedCards[1] === 0){
