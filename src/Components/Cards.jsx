@@ -6,6 +6,7 @@ import {Container,Row,Col} from 'react-bootstrap'
 import { useEffect, useState } from 'react'
 import { propTypes } from 'react-bootstrap/esm/Image'
 
+//Renders all cards
 const Cards = (props) => {
     
     let imageNames = [...images.names, ...images.names];
