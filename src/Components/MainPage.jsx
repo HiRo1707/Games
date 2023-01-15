@@ -6,7 +6,7 @@ const MainPage = () => {
     const [count, setCount] = useState(0);
     return(
         <>
-            <h1>Memo123</h1>
+            <h1>Memo</h1>
             <Cards nMoves = {nMoves} setNMoves = {setNMoves} count = {count} setCount = {setCount}/>
             <div style={{'margin-top': 20}}>
                Moves: {nMoves}
